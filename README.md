@@ -71,3 +71,36 @@ Should be simple, It should not express all the body of the function.
 - Makes test simpler.
 
 - Help to centralize process
+
+## Classes 
+
+### Defining classes 
+
+The same code is defining a class with his properties and initializing them in the constructor.
+
+```Typescript
+  class Person {
+    public name: string;
+    public gender: Gender;
+    public birthdate: Date;
+    
+    constructor(name: string, gender: Gender, birthdate: Date){
+      this.name = name;
+      this.gender = gender;
+      this.birthdate = birthdate;
+    }
+  }
+```
+
+The next code is doing the exact same thing.
+
+```Typescript
+
+  class Person {
+    constructor(
+      public name: string, 
+      public gender: Gender, 
+      public birthdate: Date){}
+  }
+
+```
