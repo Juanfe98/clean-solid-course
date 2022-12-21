@@ -62,3 +62,12 @@ Should be simple, It should not express all the body of the function.
 |--- |--- |
 | createUserIfNotExists | createUser |
 | updateUserIfNotEmpty | updateUser |
+
+
+## DRY (Don't Repeat Yourself)
+
+- It's about avoid duplicities on our code. 
+
+- Makes test simpler.
+
+- Help to centralize process
