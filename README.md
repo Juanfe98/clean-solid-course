@@ -104,3 +104,23 @@ The next code is doing the exact same thing.
   }
 
 ```
+
+In classes you could send properties as objects, this will bring you some adventages
+
+1. You could send the properties optionally without having to specify all the values in the right order
+
+```Typescript
+
+  class Person {
+    public birthDate;
+    public gender;
+    public name;
+
+      constructor({name, gender, birthDate}: personProps){
+        this.birthDate = birthDate;
+        this.gender = gender;
+        this.name = name;
+      }
+  }
+
+```
