@@ -124,3 +124,10 @@ In classes you could send properties as objects, this will bring you some advent
   }
 
 ```
+
+### Apliying the Single responsability principle
+
+To see more detailed with the code go to `clean-code/06-clases-b` and `clean-code/06-clases-c`.
+here you can see the difference between the classes applying and not the single responsability principle.
+
+To apply this principle you should alrays prefer composition over inheritance.
