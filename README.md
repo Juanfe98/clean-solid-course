@@ -131,3 +131,27 @@ To see more detailed with the code go to `clean-code/06-clases-b` and `clean-cod
 here you can see the difference between the classes applying and not the single responsability principle.
 
 To apply this principle you should alrays prefer composition over inheritance.
+
+## Code Smells STUPID
+
+STUPID are antipatterns, things that wwe should avoid in our code, bad practices when coding!
+
+S = Singleton pattern.
+T = Thight Coupling. Codigo que está altamente acoplado entre si (es muy dependiente)
+U = Untestability. Codigo no testeable (unit testing)
+P = Premature optimizations.
+I = Indescriptive Naming
+D = Duplication. No aplicar el principio DRY
+
+### Singleton
+
+Ver `code-smells/1-singleton.js`
+
+| Pros | Cons |
+|--- |--- |
+| Garantiza una unica instancia de la clase a lo largo de toda la aplicación | Vive en el contexto global |
+| - | Puede ser modificado por cualquiera y en cualquier momento |
+| - | No es rastreable |
+| - | Dificil de testear |
+
+### Thight Coupling.
